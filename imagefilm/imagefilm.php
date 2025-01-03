@@ -3,15 +3,11 @@
 Plugin Name: WW Bayern Imagefilm
 Plugin URI: https://www.example.com/imagefilm
 Description: Zeigt den WW Bayern Imagefilm in der Seitenleiste an. Installation: Gehe zu "Design" → "Widgets" und ziehe das Widget "WW Bayern Imagevideo" in die gewünschte Seitenleiste.
-Version: 1.0.0
+Version: 1.1.0
 Requires at least: 2.8
 Requires PHP: 5.6
 Author: AG-IT der WW Bayern
 Author URI: https://minicms.wasserwacht.de
-License: GPL v2 or later
-License URI: https://www.gnu.org/licenses/gpl-2.0.html
-Text Domain: wol_imagefilm_domain
-Domain Path: /languages
 */
 // Register and load the widget
 function wol_imagefilm_load_widget() {
