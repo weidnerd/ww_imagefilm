@@ -43,7 +43,7 @@ class WP_Widget_Imagefilm extends WP_Widget {
         ?>
     <p>Installation:<br>
 1. Ziehe dieses Widget in die gewünschte Seitenleiste<br>
-2. Das Video (280x158 Pixel) wird automatisch eingefügt<br>
+2. Der WW-Imagefilm (280x158 Pixel) wird automatisch eingefügt<br>
 3. Fertig!</p>
 <?php
     }
