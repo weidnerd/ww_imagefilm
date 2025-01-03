@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: WW Bayern Imagefilm
-Description: Test
+Description: Zeigt den WW Bayern Imagefilm in der Seitenleiste an. Installation: Gehe zu "Design" → "Widgets" und ziehe das Widget "WW Bayern Imagevideo" in die gewünschte Seitenleiste.
 Requires at least: 2.8
 Requires PHP: 5.6
 */
@@ -41,7 +41,10 @@ class WP_Widget_Imagefilm extends WP_Widget {
         }
         // Widget admin form
         ?>
-    <p>Hier gibts nix zu tun ;) Ziehe das Widget einfach in deine Seitenleiste.</p>
+    <p>Installation:<br>
+1. Ziehe dieses Widget in die gewünschte Seitenleiste<br>
+2. Das Video (280x158 Pixel) wird automatisch eingefügt<br>
+3. Fertig!</p>
 <?php
     }
 
