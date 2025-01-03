@@ -1,8 +1,7 @@
 <?php
 /*
-Plugin Name: WW Bayern Imagefilm
-Plugin URI: https://www.example.com/imagefilm
-Description: Zeigt den WW Bayern Imagefilm in der Seitenleiste an. Installation: Gehe zu "Design" → "Widgets" und ziehe das Widget "WW Bayern Imagevideo" in die gewünschte Seitenleiste.
+Plugin Name: BRK-Wasserwacht Imagefilm
+Description: Zeigt den WW Bayern Imagefilm in der Seitenleiste an. Installation: Gehe zu "Design" → "Widgets" und ziehe das Widget "WW Bayern Imagefilm" in die gewünschte Seitenleiste.
 Version: 1.1.0
 Requires at least: 2.8
 Requires PHP: 5.6
@@ -21,7 +20,7 @@ class WP_Widget_Imagefilm extends WP_Widget {
         parent::__construct (
 
             'wol_imagefilm',
-            __ ( 'WW Bayern Imagevideo', 'wol_imagefilm_domain' ),
+            __ ( 'WW Bayern Imagefilm', 'wol_imagefilm_domain' ),
             array (
                 'description' => __ ( 'Zeigt den WW Imagefilm in der Seitenleiste an', 'wol_imagefilm_domain' )
             ) );
