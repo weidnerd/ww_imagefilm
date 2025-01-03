@@ -1,8 +1,9 @@
 <?php
 /*
-
 Plugin Name: WW Bayern Imagefilm
 Description: Test
+Requires at least: 2.8
+Requires PHP: 5.6
 */
 // Register and load the widget
 function wol_imagefilm_load_widget() {
